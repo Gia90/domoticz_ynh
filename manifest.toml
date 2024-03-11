@@ -81,11 +81,6 @@ ram.runtime = "50M"
         api.show_tile = false
         api.allowed = "visitors"
 
-        #Permission will be removed by the install script if not needed
-        mqtt.url = "__MQTT_DOMAIN__/"
-        mqtt.show_tile = false
-        mqtt.allowed = "visitors"
-
         [resources.ports]
         main.default = 8080
         #to be checked if it can become conditionnal
