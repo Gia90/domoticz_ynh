@@ -84,9 +84,9 @@ if [ "$domain" != "$mqtt_domain" ]; then
 	mosquitto_passwd -U "/etc/mosquitto/conf.d/"$app"_credentials"
 
 	ynh_print_info --message="The credential to the mosquitto server has been saved in the settings of the app"
-else
+#else
 	#If no MQTT have been set, we delete the mqtt permission.
-	ynh_permission_delete --permission="mqtt"
+	#ynh_permission_delete --permission="mqtt"
 fi
 
 
