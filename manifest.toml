@@ -83,10 +83,6 @@ ram.runtime = "50M"
 
         [resources.ports]
         main.default = 8080
-        #to be checked if it can become conditionnal
-        #ports will always be provisionned... don't know if it's an issue...
-        mqtt.default = 1883
-        mqtt_websocket.default = 8883
 
         [resources.apt]
         packages = "libudev-dev, python3-dev, libcurl4, libusb-0.1-4"
